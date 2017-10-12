@@ -1,4 +1,4 @@
-实验三
+实验三--2
 
 （1）JAVA访问权限修饰符的掌握
   test_class.java定义了类 a和aa分别为public的成员变量和成员函数, b和bb分别为private的成员变量和成员函数, c和cc分别为protected类型的成员变量和成员函数, d和dd分别为default类型的成员变量和成员函数。
