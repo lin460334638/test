@@ -38,7 +38,11 @@ public class Task implements Comparable<Task>{
 
 	@Override
 	public int compareTo(Task o) {
-		int i=this.serviceTime-o.serviceTime;
-		return i;
+		if(this.serviceTime>o.serviceTime)
+			return 1;
+		else if(this.serviceTime<o.serviceTime)
+			return -1;
+		else
+			return 0;
 	}
 }

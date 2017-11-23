@@ -9,8 +9,10 @@ public class Main {
 		dq.showdouble_queue();
 		SJF_queue s1=new SJF_queue();
 		s1.Sin_queue();
-		s1.Dou_queue();
+		s1.sort();
 		s1.showsin_queue();
+		s1.Dou_queue();
+		s1.sort();
 		s1.showdou_queue();
 	}
 }

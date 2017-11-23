@@ -9,13 +9,12 @@ class file_oper  °üº¬tasknum£¨ÕâÀï¸ù¾İÌâÒâÎÒÃÇ³õÊ¼»¯Îª100£©£¬service[]Êı×é(¸ù¾İÌ
 class single_queue °üº¬ÁËÒ»¸öList¶ÔÏó, S_queue()·½·¨Í¨¹ıTask.gettaskArray()¸³Öµ¶ÔÏóÊı×é¸ølist,È»ºó¶Ôlist½øĞĞFCFSËã·¨£¬·½·¨ÊÇ½«listÖĞºóÒ»¸öµÄ¿ªÊ¼Ê±¼äµÈÓÚÇ°Ò»¸öµÄÍê³ÉÊ±¼ä¡£
 showsingle_queue()·½·¨½«listµÄĞÅÏ¢´ò³öÀ´¡£
 
-![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/µ¥¶ÓÁĞ(FCFS).png)
+![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/FCFSµ¥¶ÓÁĞ.png)
 
 class double_queue  °üº¬Èı¸öList¶ÔÏó(list£¬list1£¬list2)£¬Á½¸ö¶ÓÁĞ·Ö±ğÎªlist1£¬list2¡£ D_queue()·½·¨Í¨¹ı±È½ÏÁ½¸ö¶ÓÁĞ×îºóÒ»¸ö¶ÔÏóµÄÍê³ÉÊ±¼äÀ´¾ö¶¨listÖĞÔªËØµÄ¹éÊô¡£
 showdouble_queue()·½·¨½«list1£¬list2µÄĞÅÏ¢´ò³öÀ´
 
-![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/Ë«¶ÓÁĞ1(FCFS).png)
-![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/Ë«¶ÓÁĞ2(FCFS).png)
+![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/FCFSË«¶ÓÁĞ.png)
 
 SJF(¶Ì×÷ÒµÓÅÏÈ)Ëã·¨
 
@@ -23,6 +22,5 @@ class SJF_queue °üº¬Èı¸öList¶ÔÏó(list£¬list1£¬list2)£¬Á½¸ö¶ÓÁĞ·Ö±ğÎªlist1£¬list2
 Dou_queue()·½·¨ ÏÈ±È½ÏÁ½¸ö¶ÓÁĞ×îºóÒ»¸ö¶ÔÏóµÄÍê³ÉÊ±¼ä£¬ÄÄ¸öÏÈÍê³É£¬ÄÄ¸ö±ã½øĞĞÓëSin_queue()ÏàËÆµÄSJFËã·¨¡£
 showsin_queue()½«list1µÄĞÅÏ¢´ò³öÀ´£¬showdou_queue()½«list2µÄĞÅÏ¢´ò³öÀ´¡£
 
-![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/µ¥¶ÓÁĞ(SJF).png)
-![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/Ë«¶ÓÁĞ1(SJF).png)
-![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/Ë«¶ÓÁĞ2(SJF).png)
+![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/SJFµ¥¶ÓÁĞ.png)
+![](https://github.com/lin460334638/test/raw/master/ÊµÑé½ØÍ¼/SJFË«¶ÓÁĞ.png)
