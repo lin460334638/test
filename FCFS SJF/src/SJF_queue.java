@@ -1,15 +1,13 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-
 public class SJF_queue {
 	List<Task> list=new ArrayList<Task>();
 	List<Task> list1=new ArrayList<Task>();
 	List<Task> list2=new ArrayList<Task>();
 	public void Sin_queue(){
 		file_oper  fr=new file_oper();
-		fr.writefile();
+		//fr.writefile();
 		Task task =new Task();
 		list=task.gettaskArray(); 
 		for(int i=0;i<list.size();i++){
@@ -27,7 +25,7 @@ public class SJF_queue {
 	}
 	public void Dou_queue(){
 		file_oper  fr=new file_oper();
-		fr.writefile();
+		//fr.writefile();
 		Task task =new Task();
 		list=task.gettaskArray(); 
 		for(int i=0;i<list.size();i++){

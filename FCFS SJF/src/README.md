@@ -14,8 +14,7 @@ showsingle_queue()方法将list的信息打出来。
 class double_queue  包含三个List对象(list，list1，list2)，两个队列分别为list1，list2。 D_queue()方法通过比较两个队列最后一个对象的完成时间来决定list中元素的归属。
 showdouble_queue()方法将list1，list2的信息打出来
 
-![](https://github.com/lin460334638/test/raw/master/实验截图/双队列1(FCFS).png)
-![](https://github.com/lin460334638/test/raw/master/实验截图/双队列2(FCFS).png)
+![](https://github.com/lin460334638/test/raw/master/实验截图/双队列(FCFS).png)
 
 SJF(短作业优先)算法
 

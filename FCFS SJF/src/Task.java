@@ -1,8 +1,6 @@
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-
-
 public class Task implements Comparable<Task>{
 	public int taskID;               //任务ID
 	public  int arrivalTime;           //到达时间

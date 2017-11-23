@@ -5,13 +5,11 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
-
-
 public class file_oper {
 	public int tasknum=100;
 	public int service[]={6,2,1,3,9};
-	public void writefile(){
-		File  file = new File("D:\\taskwork.txt");
+/*	public void writefile(){
+		File  file = new File("taskwork.txt");
 		Random r = new Random();
 		try{
 			FileWriter out=new FileWriter(file);      //true参数表追加
@@ -25,9 +23,9 @@ public class file_oper {
 		catch (Exception e1){
 			e1.printStackTrace();
 		}	
-	}
+	}*/
 	public int[][] readfile(){
-		File file = new File("D:\\taskwork.txt");
+		File file = new File("input.txt");
 		int arr[][]=new int[tasknum][3];
 		try {
 			FileReader fr = new FileReader(file);
@@ -35,7 +33,7 @@ public class file_oper {
 			String s=null;
 			int i=0;		
 			while((s=in.readLine())!=null){
-				String tmp[]=s.split(" ");
+				String tmp[]=s.split("	");
 				int j=0;
 				for(String m:tmp){
 					arr[i][j]=Integer.parseInt(m);
@@ -43,6 +41,7 @@ public class file_oper {
 				}
 				i++;
 			}	
+			in.close();
 		}
 		catch (Exception e) {
 			// TODO 自动生成的 catch 块

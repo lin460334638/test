@@ -1,12 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
-
-
 public class single_queue {
 	List<Task> list=new ArrayList<>();
 	public void S_queue(){
 		file_oper  fr=new file_oper();
-		fr.writefile();
+		//fr.writefile();
 		Task task =new Task();
 		list=task.gettaskArray();
 		for(int i=0;i<list.size();i++){
