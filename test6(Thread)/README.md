@@ -14,7 +14,9 @@
 	
 ![](https://github.com/lin460334638/test/raw/master/实验截图/Threadmain1.png)
 
-实验六--2 利用4个线程分段求和1~100 每个部分的求和过程用一个线程来表示。每个thread中调用前一个thread的join()方法来达到先求前一部分和的目的。
+实验六--2 利用4个线程分段求和1~100 每个部分的求和过程用一个线程来表示。
+
+每个thread中调用前一个thread的join()方法来达到先求前一部分和的目的。
 
 	public class getSum {
 		private Thread threadA;
